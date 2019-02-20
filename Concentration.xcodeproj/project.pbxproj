@@ -12,6 +12,8 @@
 		BF579DF02218D3C000D9FE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF579DEE2218D3C000D9FE1A /* Main.storyboard */; };
 		BF579DF22218D3C100D9FE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF579DF12218D3C100D9FE1A /* Assets.xcassets */; };
 		BF579DF52218D3C100D9FE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF579DF32218D3C100D9FE1A /* LaunchScreen.storyboard */; };
+		BF579DFE221B619B00D9FE1A /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF579DFD221B619B00D9FE1A /* Concentration.swift */; };
+		BF579E00221B634800D9FE1A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF579DFF221B634800D9FE1A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BF579DF12218D3C100D9FE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF579DF42218D3C100D9FE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF579DF62218D3C100D9FE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF579DFD221B619B00D9FE1A /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		BF579DFF221B634800D9FE1A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				BF579DEC2218D3C000D9FE1A /* ViewController.swift */,
 				BF579DEE2218D3C000D9FE1A /* Main.storyboard */,
+				BF579DFD221B619B00D9FE1A /* Concentration.swift */,
+				BF579DFF221B634800D9FE1A /* Card.swift */,
 				BF579DFC2218D60700D9FE1A /* Supporting Files */,
 				BF579DF62218D3C100D9FE1A /* Info.plist */,
 			);
@@ -145,6 +151,8 @@
 			files = (
 				BF579DED2218D3C000D9FE1A /* ViewController.swift in Sources */,
 				BF579DEB2218D3C000D9FE1A /* AppDelegate.swift in Sources */,
+				BF579DFE221B619B00D9FE1A /* Concentration.swift in Sources */,
+				BF579E00221B634800D9FE1A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
